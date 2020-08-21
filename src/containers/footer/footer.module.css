@@ -1,0 +1,26 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#284e7a, black 100%);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    padding: 12px;
+}
+
+.Icons i{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.Footer h4{
+    font-weight: normal;
+    margin: 0;
+    padding: 12px;
+    font-size: 26px;
+}
