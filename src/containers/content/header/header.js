@@ -6,8 +6,9 @@ class Header extends Component{
             <div className={classes.Header}>
                 <ul>
                     <li>Home</li>
-                    <li>Passion</li>
+                    <li>About</li>
                     <li>Projects</li>
+                    <li>Galery</li>
                     <li>Motivation</li>
                 </ul>
             </div>

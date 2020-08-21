@@ -27,7 +27,5 @@ code {
 ::-webkit-scrollbar-thumb
 {
   border-radius: 11px;
-	background-color: #D62929;
-	background-image: -webkit-linear-gradient(90deg,
-											  purple 40%, orange 100%);
+	background-color: gray;
 }

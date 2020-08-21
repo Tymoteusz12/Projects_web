@@ -1,0 +1,9 @@
+.About{
+    margin: 0;
+    padding: 32px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
