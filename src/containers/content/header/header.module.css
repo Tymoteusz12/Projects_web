@@ -1,5 +1,4 @@
 .Header{
-    position: relative;
     padding: 12px;
     margin: 0;
     font-size: 20px;
@@ -9,13 +8,14 @@
 .Header ul{
     margin: 0;
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 16px;
     list-style-type: none;
 }
 
 .Header ul li{
     cursor: pointer;
-    padding: 0px 24px;
+    padding: 12px 24px;
     color: rgba(255, 255, 255, 0.7);
 }
