@@ -15,7 +15,7 @@ const About = props => {
                 I am not scarred of intelectual challenges, because
                 I know, that every struggle develops my experience
                 and my abilities. In the future I would like to become
-                fullstack software developer.</p>
+                full stack developer.</p>
         </div>
     );
 }

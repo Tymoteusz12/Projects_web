@@ -1,0 +1,62 @@
+.Toggle{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+    min-height: 150px;
+    box-shadow: 0px 0px 50px 2px greenyellow;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.Toggle h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.Toggle:before{
+    content: '';
+    position: absolute;
+    left: -400px;
+    min-width: 200px;
+    min-height: 600px;
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 50px 50px rgba(255,255,255,0.4);
+    transform: skewX(-30deg);
+    transition: .8s;
+}
+
+.Toggle i{
+    
+    padding: 0px 12px;
+    font-size: 84px;
+}
+
+.Toggle:hover:before{
+    left: calc(100vw + 300px);
+}
+
+.content{
+    margin: auto;
+    min-height: 0px;
+    max-width: 1200px;
+    border-radius: 25%;
+    background-color: white;
+    transition: all .2s linear;
+}
+
+.nonactive{
+    margin-bottom: 0px;
+}
+
+.active {
+    min-height: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 50px 2px white;
+}
+

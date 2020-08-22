@@ -1,0 +1,9 @@
+.proj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}

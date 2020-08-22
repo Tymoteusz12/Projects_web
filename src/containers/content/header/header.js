@@ -8,7 +8,7 @@ class Header extends Component{
                     <li>Home</li>
                     <li>About</li>
                     <li>Projects</li>
-                    <li>Galery</li>
+                    <li>Gallery</li>
                     <li>Motivation</li>
                 </ul>
             </div>

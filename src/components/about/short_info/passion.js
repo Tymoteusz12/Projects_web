@@ -4,7 +4,7 @@ import passion from '../../../resources/img/passion.png';
 const passions = props => {
     return(
         <div className={classes.Passion}>
-            <img src={passion}/>
+            <img src={passion} alt="passion_image"/>
             <h3>True passion</h3>
             <p>My programming adventure started at the beginning of 2019. Since this time,
                 I have learned three programming languages. My main language is C++ with C.

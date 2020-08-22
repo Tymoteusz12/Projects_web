@@ -5,7 +5,7 @@ class Footer extends Component{
     state = {
         currentYear: null
     }
-    componentWillMount(){
+    componentDidMount(){
         this.setState({
             currentYear: new Date().getFullYear()
         })
