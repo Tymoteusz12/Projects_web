@@ -34,7 +34,18 @@ class Lang extends Component{
                     </div>
                 </div>
                 <div className={this.state.class.join(' ')}>
-                    <p>{this.props.content}</p>
+                    <h2>{this.props.content.header1}</h2>
+                    <p>{this.props.content.content1}</p>
+                    <h2>{this.props.content.header2}</h2>
+                    <p>{this.props.content.content2}</p>
+                    <h2>{this.props.content.header3}</h2>
+                    <p>{this.props.content.content3}</p>
+                    {this.props.content.content4 ? 
+                    <div>
+                        <h2>{this.props.content.header4}</h2>
+                        <p>{this.props.content.content4}</p>
+                    </div>
+                    : null}
                 </div> 
             </div>
         );
