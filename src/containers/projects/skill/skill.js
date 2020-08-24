@@ -1,10 +1,21 @@
 import React, {Component} from 'react';
 import classes from './../boxStyling.module.css';
+import Transition from 'react-transition-group/transition';
+import Project from '../../../components/proj/project';
+
+Object.size = function(obj){
+    let size = 0, key;
+    for(key in obj){
+        if(obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+}
 
 class Lang extends Component{
 
     state = {
         active: false,
+        el: [],
         class: [
             classes.content, classes.nonactive
         ]
@@ -24,6 +35,18 @@ class Lang extends Component{
             }
         })
     }
+    componentDidMount(){
+        let size = Object.size(this.props.content);
+        let components = [];
+        for(let val = 1; val <= size; val++){
+            components.push(
+                (
+                    <Project header={this.props.content['header' + val]} content={this.props.content['content' + val]}/>          
+                )
+            )
+        }
+        this.setState({el:components})
+    }
 
     render(){
         return( 
@@ -34,18 +57,7 @@ class Lang extends Component{
                     </div>
                 </div>
                 <div className={this.state.class.join(' ')}>
-                    <h2>{this.props.content.header1}</h2>
-                    <p>{this.props.content.content1}</p>
-                    <h2>{this.props.content.header2}</h2>
-                    <p>{this.props.content.content2}</p>
-                    <h2>{this.props.content.header3}</h2>
-                    <p>{this.props.content.content3}</p>
-                    {this.props.content.content4 ? 
-                    <div>
-                        <h2>{this.props.content.header4}</h2>
-                        <p>{this.props.content.content4}</p>
-                    </div>
-                    : null}
+                    {this.state.el}
                 </div> 
             </div>
         );

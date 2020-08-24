@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classes from './projects.module.css';
-import Lang from './Lang/Lang';
+import Lang from './skill/skill';
 class Projects extends Component {
 
     state = {
