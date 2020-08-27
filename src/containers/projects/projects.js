@@ -34,21 +34,27 @@ class Projects extends Component {
                     header1: 'Ping-pong ball',
                     content1: 'Well... If you ever wanted to throw ping pong ball inside your screen, you can do this. Made with pygame. Just adjust: direction in 2D space, vector length and press click. The ball will jump into selected direction with given speed vector. Also, it movement will slowly decrease due to screen friction and gravity. Yes, there is gravity! It forces ball to return to the bottom.',
                     vid1: {
-                        vidSrc: [],
-                        vidLabels:[],
+                        vidSrc: ['videos/python/golf_ball.mp4'],
+                        vidLabels:['General look'],
                     },
-                    header2: 'Multiple gravity reaction',
-                    content2: 'Press on the screen to create a cicle, which has momentum. You can adjust position of cicle and his speed vector. You can put as many balls as you want. If you want to see models interaction (every ball has mass), simply press start key. The fun will begin. After ball touches another ball it will take his size and momentum. Therefore in the end there will be single resultant momentum made from every single ball, that has been put. Project made with my colleague.',
+                    header2: 'Central mass gravity',
+                    content2: 'Press on the screen to create a cicle, which has momentum. You can adjust position of cicle and his speed vector. After click, circle will start movement and will interact with central mass, which is represented as big circle in the middle. Also - red line is equal to acceleration vector, and white is resultant velocity vector.',
                     vid2: {
+                        vidSrc: ['videos/python/gravity_and_object.mp4'],
+                        vidLabels:['Project overview'],
+                    },
+                    header3: 'Space invaders',
+                    content3: 'Well, pretty humble game, but every initiative is good for practice. Shot with space, move with A, D and score as much as you can! Crashing into enemy space ship will result as a game over.',
+                    vid3: {
+                        vidSrc: ['videos/python/Space_invaders.mp4'],
+                        vidLabels:['Project overview'],
+                    },
+                    header4: 'Short message',
+                    content4: 'I used also to play a little bit with tensorflow and AI, but I lost my interest in that subject. I have two projects, which were made with tutorials, but I do not want to share projects, that are not mine.',
+                    vid4: {
                         vidSrc: [],
                         vidLabels:[],
                     },
-                    header3: 'AI made to recognize clothes',
-                    content3: '',
-                    vid3: {
-                        vidSrc: [],
-                        vidLabels:[],
-                    }
                 }
             },
             {
@@ -57,8 +63,8 @@ class Projects extends Component {
                     header1: 'Build your own burger!',
                     content1: 'Project made with react, together with redux. You can build your own burger, fill contact form and register as a user to see your own orders. App uses tokens for authentication, so if you leave a page and return back, you will be still logged. It uses also Firebase to fetch orders from database, generate tokens and more. General idea of the project was to train AJAX, React, React-redux, Routing and basics of web development. ',
                     vid1: {
-                        vidSrc: [],
-                        vidLabels:[],
+                        vidSrc: ['videos/web_dev/burger_builder/General_view.mp4', 'videos/web_dev/burger_builder/Ordering_Burger.mp4', 'videos/web_dev/burger_builder/Data_comparison.mp4', 'videos/web_dev/burger_builder/Routing.mp4' , 'videos/web_dev/burger_builder/Firebase_check.mp4'],
+                        vidLabels:['General view', 'Ordering a burger!', 'Ordered burger informations', 'Routing - with out authentication, we are unable to enter some pages', 'Checking firebase. All orders data are stored in firebase.'],
                     },
                     header2: 'Programming project page',
                     content2: 'This site actually is my project. It uses React. Build for my programming skills presentation! It is fully responsive.',
@@ -67,10 +73,10 @@ class Projects extends Component {
                         vidLabels:[],
                     },
                     header3: 'Simple SPA',
-                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming.',
+                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming. You can also enter this page on your own! Here is link: https://tymoteusz12.github.io/Tymoteusz12.github.io./',
                     vid3: {
-                        vidSrc: [],
-                        vidLabels:[],
+                        vidSrc: ['videos/web_dev/simple_spa/simple_spa.mp4', 'videos/web_dev/simple_spa/web_menu.mp4'],
+                        vidLabels:['Github link: https://github.com/Tymoteusz12/Tymoteusz12.github.io.', 'Web page menu'],
                     },
                     header4: 'My portfolio',
                     content4: 'Made with much love to present me as a person and candidate for you, dear recruiter. Built with react :)',
