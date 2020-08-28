@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
 import classes from './content.module.css';
-import Header from './header/header';
+import Slider from '../../shared/transition.css';
 class Content extends Component{
     render(){
         return(
-            <div className={classes.Content}>  
-                <Header/>
+            <div className={classes.Content + ' page' }>
                 <div className={classes.Quote}>
                     <h5>“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
                         ― John Woods</h5>

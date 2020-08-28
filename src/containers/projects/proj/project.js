@@ -10,7 +10,6 @@ class project extends Component{
         let vidCompCopy = [];
 
         for(let id in this.props.videoObj.vidSrc){
-            console.log(id);
             vidCompCopy.push(
                 (
                 <div key={this.props.videoObj.vidSrc[id]}>

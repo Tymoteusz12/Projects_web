@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import classes from './../boxStyling.module.css';
-import Transition from 'react-transition-group/transition';
+import {CSSTransition} from 'react-transition-group';
 import Project from '../proj/project';
-
+import './fade.css';
 Object.size = function(obj){
     let size = 0, key;
     for(key in obj){
@@ -15,24 +15,13 @@ class Lang extends Component{
 
     state = {
         active: false,
-        el: [],
-        class: [
-            classes.content, classes.nonactive
-        ]
+        containerToRender: [],
+        class: classes.content
     }
 
     clickHandler = () => {
         this.setState(prevState => {
-            let newClass = [...prevState.class];
-            if(!prevState.active){
-                newClass.push(classes.active);
-            }
-            else{
-                newClass = [classes.content, classes.nonactive];
-            }
-            return {active: !prevState.active,
-                    class: newClass
-            }
+            return {active: !prevState.active}
         })
     }
     componentDidMount(){
@@ -45,10 +34,11 @@ class Lang extends Component{
                 )
             )
         }
-        this.setState({el:components})
+        this.setState({containerToRender:components})
     }
 
     render(){
+        const timeout = { enter: 600, exit: 600 }
         return( 
             <div style={{flexBasis: '100%'}}>
                 <div onClick={this.clickHandler}>
@@ -56,9 +46,13 @@ class Lang extends Component{
                         <i className="fas fa-caret-down"></i><h2>{this.props.title}</h2>
                     </div>
                 </div>
-                <div className={this.state.class.join(' ')}>
-                    {this.state.el}
-                </div> 
+                <div>
+                    <CSSTransition unmountOnExit in={this.state.active} classNames="fade" timeout={timeout}>
+                        <div className={this.state.class}>
+                            {this.state.containerToRender}
+                        </div> 
+                    </CSSTransition>
+                </div>
             </div>
         );
     }

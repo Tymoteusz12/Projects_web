@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import classes from './projects.module.css';
 import Lang from './skill/skill';
+import Slider from '../../shared/transition.css';
 class Projects extends Component {
 
     state = {
@@ -91,7 +92,7 @@ class Projects extends Component {
 
     render(){
         return(
-            <div className={classes.proj}>
+            <div className={classes.proj + ' page'}>
                 {this.state.components.map(object => {
                     return <Lang key={object.title} title={object.title} content={object.content}/>
                 })}

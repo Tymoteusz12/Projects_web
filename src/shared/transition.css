@@ -1,0 +1,20 @@
+.pageSlider-exit > .page {
+z-index: 1;
+}
+
+.pageSlider-enter > .page{
+z-index: 50;
+}
+
+.pageSlider-enter.wrapper > .page{
+    opacity: 0.5;
+}
+
+.pageSlider-exit.wrapper > .page{
+    opacity: 0.5;
+}
+
+.pageSlider-enter.pageSlider-enter-active > .page{
+    opacity: 1;
+    transition: all .6s ease;
+}

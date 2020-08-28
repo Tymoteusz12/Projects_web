@@ -1,7 +1,7 @@
 .Footer{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(orange, orangered);
     color: rgba(255, 255, 255, 0.8);
 }
 
