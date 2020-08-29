@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import classes from './projects.module.css';
 import Lang from './skill/skill';
-import Slider from '../../shared/transition.css';
 class Projects extends Component {
 
     state = {

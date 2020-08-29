@@ -12,3 +12,19 @@
     margin: auto;
     width: 60%;
 }
+
+@media (max-width: 600px) and (max-height: 1000px){
+    .elem h2{
+        font-size: 40px;
+        margin: 20px 0px;
+    }
+
+    .elem p{
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .elem video{
+        width: 90%;
+    }
+}

@@ -14,3 +14,21 @@
     line-height: 150%;
     min-height: 500px;
 }
+
+@media (max-width: 600px) and (max-height: 1000px){
+    .Passion{
+        border-radius: 5px;
+        margin: 50px auto;
+    }
+    
+    .Passion img{
+        width: 50%;
+    }
+    .Passion h3{
+        font-size: 44px;
+    }
+
+    .Passion p{
+        padding: 12px;
+    }
+}

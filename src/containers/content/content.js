@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import classes from './content.module.css';
-import Slider from '../../shared/transition.css';
 class Content extends Component{
     render(){
         return(
