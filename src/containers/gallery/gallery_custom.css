@@ -3,11 +3,18 @@
 }
 
 .image-gallery{
+    z-index: 15;
     width: 90%;
+}
+
+.image-gallery-thumbnail{
+    box-shadow: 0px 0px 5px 1px white;
 }
 
 .image-gallery-slide .image-gallery-image{
     width: 80vw;
+    margin: 5vh 0;
+    box-shadow: 0px 0px 20px 5px white;
 }
 
 .image-gallery-bullets .image-gallery-bullet{

@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import classes from './header.module.css';
 import {NavLink} from 'react-router-dom';
-import '../../../shared/transition.css';
+import '../../shared/transition.css';
 class Header extends Component{
     state = {
         navigation: ['Home', 'About', 'Projects', 'Gallery', 'Portfolio']
     }
     render(){
         return(
-            <div className={classes.Header}>
+            <div className={classes[this.props.menuClass]}>
                 <ul>
                     {this.state.navigation.map( page => {
                         return (

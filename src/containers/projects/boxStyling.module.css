@@ -1,6 +1,7 @@
 .Toggle{
     position: relative;
     display: flex;
+    z-index: 15;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;

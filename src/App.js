@@ -6,13 +6,17 @@ import About from './containers/about/about';
 import Projects from './containers/projects/projects';
 import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
-import Header from './containers/content/header/header';
+import Header from './containers/header/header';
 import Gallery from './containers/gallery/gallery';
+import MobileMenu from './containers/header/mobile/mobile';
 class App extends Component {
 
     state = {
       showMenu: true,
       prevScroll: 0,
+      width: 0,
+      height: 0,
+      mobileMenuActive: false
     }
 
     scrollHandler = () =>{
@@ -31,10 +35,24 @@ class App extends Component {
 
     componentDidMount(){
       window.addEventListener('scroll', this.scrollHandler);
+      window.addEventListener('resize', this.updateWindowSize);
+    }
+
+    updateWindowSize = () => {
+      this.setState({width: window.innerWidth, height: window.innerHeight})
+    }
+
+    onClickMenuHandler = () => {
+      this.setState(prevState => {
+        return { 
+          mobileMenuActive: !prevState.mobileMenuActive
+        }
+      })
     }
 
     componentWillUmount(){
       window.removeEventListener('scroll');
+      window.removeEventListener('resize');
     }
 
     render(){
@@ -46,13 +64,13 @@ class App extends Component {
         mountOnEnter unmountOnExit 
         timeout={timeout}>
           <div className='wrapper'>
-            <Switch location={this.props.location}>
-              <Route path="/gallery" component={Gallery}/>
-              <Route path="/projects" component={Projects}/>
-              <Route path="/about" component={About}/>
-              <Route path="/home" component={Content}/>
-              <Redirect from="/" to="/home"/>
-            </Switch>
+              <Switch location={this.props.location}>
+                <Route path="/gallery" component={Gallery}/>
+                <Route path="/projects" component={Projects}/>
+                <Route path="/about" component={About}/>
+                <Route path="/home" component={Content}/>
+                <Redirect from='/'to="/home"/>
+              </Switch>
           </div>
         </CSSTransition>
       </TransitionGroup>);
@@ -63,8 +81,12 @@ class App extends Component {
           in={this.state.showMenu}
           classNames='menuSlider'
           timeout={timeout}>
-              <Header/>
-          </CSSTransition>
+            {this.state.width >= 800 
+            ? <Header menuClass={'Header'}/> 
+            : <MobileMenu 
+            showMenu = {this.state.mobileMenuActive} 
+            click={this.onClickMenuHandler}/>}
+          </CSSTransition> 
           {pageToRender}
           <Footer/>
         </div>
