@@ -1,11 +1,11 @@
 import React from 'react';
 import {CSSTransition} from 'react-transition-group';
-import Header from '../../../containers/header/header';
+import Header from '../../../containers/Navigation/header';
 import {menuToggler} from '../../../shared/transitionObj';
 
 const menu = (props) => {
     const timeout = {
-        enter: 800,
+        enter: 0,
         exit: 0
     }
 

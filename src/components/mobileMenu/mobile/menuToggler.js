@@ -5,7 +5,7 @@ import {opacityToggler} from '../../../shared/transitionObj';
 
 const menuToggler = (props) => {
     const timeout = {
-        enter: 800,
+        enter: 0,
         exit: 0
     }
 

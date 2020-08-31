@@ -1,3 +1,9 @@
 https://github.com/Tymoteusz12/Burger_Builder
 https://tymoteusz12.github.io/Tymoteusz12.github.io./'
 https://github.com/Tymoteusz12/Projects_web
+https://github.com/Tymoteusz12/OpenGL-and-physics.git
+
+Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+<h4>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" www.flaticon.com </a></h4>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>

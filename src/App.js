@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import classes from './App.module.css';
 import Footer from './containers/footer/footer';
-import Content from './containers/content/content';
+import Content from './containers/home/content';
 import About from './containers/about/about';
 import Projects from './containers/projects/projects';
 import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
-import Header from './containers/header/header';
+import Header from './containers/Navigation/header';
 import Gallery from './containers/gallery/gallery';
 import MobileMenu from './components/mobileMenu/mobile';
 import {opacityToggler} from './shared/transitionObj';
-
+import Links from './containers/Links/Links';
 class App extends Component {
 
     state = {
@@ -66,13 +66,14 @@ class App extends Component {
         classNames="pageSlider"
         mountOnEnter unmountOnExit 
         timeout={timeout}>
-          <Switch location={this.props.location}>
-            <Route path="/gallery" component={Gallery}/>
-            <Route path="/projects" component={Projects}/>
-            <Route path="/about" component={About}/>
-            <Route path="/home" component={Content}/>
-            <Redirect from='/'to="/home"/>
-          </Switch>
+            <Switch location={this.props.location}>
+              <Route path="/links" component={Links}/>
+              <Route path="/gallery" component={Gallery}/>
+              <Route path="/projects" component={Projects}/>
+              <Route path="/about" component={About}/>
+              <Route path="/home" component={Content}/>
+              <Redirect from='/'to="/home"/>
+            </Switch>
         </CSSTransition>
       </TransitionGroup>);
 

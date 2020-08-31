@@ -1,13 +1,21 @@
 .proj{
+    background-image: linear-gradient(45deg, rgba(10, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../../resources/img/idea.png');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: black;
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: calc(10vh + 200px);
     min-height: 100vh;
+    position: relative;
+    z-index: 10;
 }
+
 
 @media (max-width: 600px) and (max-height: 1000px){
     .proj{

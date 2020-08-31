@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import classes from './projects.module.css';
 import Lang from './skill/skill';
 import '../../shared/transition.css';
+
 class Projects extends Component {
 
     state = {

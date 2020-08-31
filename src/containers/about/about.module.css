@@ -1,4 +1,9 @@
 .About{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.9) 5%, rgba(0, 0, 0, 0.7)), url('../../resources/img/info_bgc.png');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 20px;
     background-color: black;
@@ -7,4 +12,5 @@
     justify-content: space-around;
     align-items: center;
     transition: .4s linear;
+    padding-bottom: calc(10vh + 200px);
 }
