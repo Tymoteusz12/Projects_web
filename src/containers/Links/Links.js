@@ -14,7 +14,8 @@ class Links extends Component{
             'Icon made by https://www.flaticon.com/authors/itim2101, itim2101 from https://www.flaticon.com/',
             'Icon made by https://www.flaticon.com/authors/freepik, Freepik from  https://www.flaticon.com',
             'Icon made by https://www.flaticon.com/authors/dave-gandy, Dave Gandy from https://www.flaticon.com/',
-            'Icon made by https://www.flaticon.com/authors/freepik, Freepik from https://www.flaticon.com/'
+            'Icon made by https://www.flaticon.com/authors/freepik, Freepik from https://www.flaticon.com/',
+            'lnksbgi'
         ]
         },
         resources: []
