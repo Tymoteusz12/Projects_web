@@ -14,7 +14,7 @@ class project extends Component{
                 (
                 <div key={this.props.videoObj.vidSrc[id]}>
                     <h3>{this.props.videoObj.vidLabels[id]}</h3>
-                    <video src={this.props.videoObj.vidSrc[id]} type="video/mp4" controls></video>
+                    <video src={this.props.videoObj.vidSrc[id]} controls></video>
                 </div>
                 )
             )
