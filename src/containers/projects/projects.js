@@ -59,19 +59,19 @@ class Projects extends Component {
                     content1: 'Project made with react, together with redux. You can build your own burger, fill contact form and register as a user to see your own orders. App uses tokens for authentication, so if you leave a page and return back, you will be still logged. It uses also Firebase to fetch orders from database, generate tokens and more. General idea of the project was to train AJAX, React, React-redux, Routing and basics of web development. ',
                     vid1: {
                         vidSrc: ['videos/web_dev/burger_builder/General_view.mp4', 'videos/web_dev/burger_builder/Ordering_Burger.mp4', 'videos/web_dev/burger_builder/Data_comparison.mp4', 'videos/web_dev/burger_builder/Routing.mp4' , 'videos/web_dev/burger_builder/Firebase_check.mp4'],
-                        vidLabels:['General view. Here is source code: https://github.com/Tymoteusz12/Burger_Builder', 'Ordering a burger!', 'Ordered burger informations', 'Routing - with out authentication, we are unable to enter some pages', 'Checking firebase. All orders data are stored in firebase.'],
+                        vidLabels:['General view.', 'Ordering a burger!', 'Ordered burger informations', 'Routing - with out authentication, we are unable to enter some pages', 'Checking firebase. All orders data are stored in firebase.'],
                     },
                     header2: 'Programming project page',
-                    content2: 'This site actually is my project. It uses React. Build for my programming skills presentation! It is fully responsive. Check code! Github link: https://github.com/Tymoteusz12/Projects_web',
+                    content2: 'This site actually is my project. It uses React. Build for my programming skills presentation! It is fully responsive.',
                     vid2: {
                         vidSrc: [],
                         vidLabels:[],
                     },
                     header3: 'Simple SPA',
-                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming. You can also enter this page on your own!  Here is link: https://tymoteusz12.github.io/Tymoteusz12.github.io./',
+                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming. You can also enter this page on your own!',
                     vid3: {
                         vidSrc: ['videos/web_dev/simple_spa/simple_spa.mp4', 'videos/web_dev/simple_spa/web_menu.mp4'],
-                        vidLabels:['Check source! Github link: https://github.com/Tymoteusz12/Tymoteusz12.github.io.', 'Web page menu'],
+                        vidLabels:['Home view', 'Web page menu'],
                     },
                     header4: 'My portfolio',
                     content4: 'Made to present me as a person and candidate for recruitment. Built with react.',

@@ -3,7 +3,7 @@ import classes from './header.module.css';
 import {NavLink} from 'react-router-dom';
 class Header extends Component{
     state = {
-        navigation: ['Home', 'About', 'Projects', 'Gallery', 'Portfolio']
+        navigation: ['Home', 'About', 'Projects', 'Gallery', 'Links']
     }
     render(){
         return(

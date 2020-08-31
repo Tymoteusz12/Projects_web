@@ -39,7 +39,6 @@ h5, h6{
 
 .Explore p{
     text-transform: uppercase;
-    display: inline-block;
     box-sizing: content-box;
     margin: 0;
     font-size: 28px;
