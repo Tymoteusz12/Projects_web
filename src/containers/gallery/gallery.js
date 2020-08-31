@@ -5,6 +5,9 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import './gallery_custom.css';
 class Gallery extends Component{
 
+    componentDidMount(){
+        window.scrollTo(0,0);
+    }
 
     render(){
         const images = [

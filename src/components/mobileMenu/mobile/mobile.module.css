@@ -1,0 +1,79 @@
+.toggler{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 6px;
+    top: 5%;
+    right: calc(5% + 22px);
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    box-shadow: 0px 0px 8px 3px greenyellow;
+    cursor: pointer;
+}
+
+@media (max-width: 820px){
+    .toggler{
+        z-index: 51;
+        opacity: 1;
+    }
+}
+
+.mobile-menu-enter{
+    z-index: -1;
+    opacity: 0;
+}
+.mobileMenu-enter-active{
+    opacity: 1 !important;
+    z-index: 50;
+    transition: opacity .8s;
+}
+
+.mobileMenu-enter-done{
+    opacity: 1 !important;
+    z-index: 50;
+    transition: opacity .8s;
+}
+
+.mobileMenu-exit{
+    z-index: 50;
+    opacity: 1 !important;
+}
+
+.mobileMenu-exit-done{
+    z-index: -1;
+    opacity: 0 !important;
+    transition: opacity .8s, z-index .8s;
+}
+
+.mobileMenuToggler-enter{
+    z-index: -1;
+    opacity: 0 !important;
+}
+.mobileMenuToggler-enter-active{
+    opacity: 1 !important;
+    z-index: 51;
+    transition: opacity .8s;
+}
+
+.mobileMenuToggler-enter-done{
+    opacity: 1;
+    z-index: 51;
+}
+
+.mobileMenuToggler-exit{
+    z-index: 51;
+    opacity: 1 !important;
+}
+
+.mobileMenuToggler-exit-done{
+    z-index: -1;
+    opacity: 0 !important;
+    transition: opacity .8s, z-index .8s;
+}
+
+
+

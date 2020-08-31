@@ -8,7 +8,9 @@ import {Route, Switch, withRouter, Redirect} from 'react-router-dom';
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
 import Header from './containers/header/header';
 import Gallery from './containers/gallery/gallery';
-import MobileMenu from './containers/header/mobile/mobile';
+import MobileMenu from './components/mobileMenu/mobile';
+import {opacityToggler} from './shared/transitionObj';
+
 class App extends Component {
 
     state = {
@@ -36,6 +38,7 @@ class App extends Component {
     componentDidMount(){
       window.addEventListener('scroll', this.scrollHandler);
       window.addEventListener('resize', this.updateWindowSize);
+      this.updateWindowSize();
     }
 
     updateWindowSize = () => {
@@ -56,37 +59,42 @@ class App extends Component {
     }
 
     render(){
-      const timeout = { enter: 800, exit: 0 }
+      const timeout = { enter: 1000, exit: 0 }
       let pageToRender = (
       <TransitionGroup>
         <CSSTransition key={this.props.location.pathname} 
         classNames="pageSlider"
         mountOnEnter unmountOnExit 
         timeout={timeout}>
-          <div className='wrapper'>
-              <Switch location={this.props.location}>
-                <Route path="/gallery" component={Gallery}/>
-                <Route path="/projects" component={Projects}/>
-                <Route path="/about" component={About}/>
-                <Route path="/home" component={Content}/>
-                <Redirect from='/'to="/home"/>
-              </Switch>
-          </div>
+          <Switch location={this.props.location}>
+            <Route path="/gallery" component={Gallery}/>
+            <Route path="/projects" component={Projects}/>
+            <Route path="/about" component={About}/>
+            <Route path="/home" component={Content}/>
+            <Redirect from='/'to="/home"/>
+          </Switch>
         </CSSTransition>
       </TransitionGroup>);
 
+      let headerToRender = (
+        <CSSTransition 
+          in={this.state.showMenu}
+          classNames={opacityToggler}
+          timeout={timeout}>
+        <Header menuClass={'Header'}/> 
+        </CSSTransition>);
+
+      if(this.state.width < 820){
+        headerToRender = (
+          <MobileMenu 
+            toggleMenuButton={this.state.showMenu}
+            showMobileMenu = {this.state.mobileMenuActive} 
+            click={this.onClickMenuHandler}/>);
+      }
+
       return (
         <div className={classes.App}>
-          <CSSTransition 
-          in={this.state.showMenu}
-          classNames='menuSlider'
-          timeout={timeout}>
-            {this.state.width >= 800 
-            ? <Header menuClass={'Header'}/> 
-            : <MobileMenu 
-            showMenu = {this.state.mobileMenuActive} 
-            click={this.onClickMenuHandler}/>}
-          </CSSTransition> 
+          {headerToRender}
           {pageToRender}
           <Footer/>
         </div>

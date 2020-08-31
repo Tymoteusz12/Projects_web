@@ -1,50 +1,16 @@
 .Header{
     position: fixed;
-    z-index: 14;
+    min-width: 100%;
     padding: 6px;
     font-size: 22px;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.mobileMenuClass{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 26px;
-    padding: 6px;
-    z-index: 19;
-    top: 0%;
-    right: 0%;
-    width: 50%;
-    height: 100vh;
-    border-radius: 5px;
-    background-color: black;
-    box-shadow: 0px 0px 20px 3px orangered;
-}
-
-.mobileMenuClass ul{
-    padding: 0px;
-    margin-top: 100px;
-    height: 100%;    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-}
-.mobileMenuClass .NavLink{
-    padding: 10px;
-    margin: 20px 0px;
-    width: 100%;
-    border: 2px solid orangered;
-    border-radius: 5px;
-    color: white;
-}
-
-.mobileMenuClass .NavLink.active{
-    font-size: 26px;
-    box-shadow: 0px -60px 6px -35px orangered, 0px 60px 6px -35px orangered;
+@media (min-width: 821px){
+    .Header{
+        opacity: 1;
+        z-index: 51;
+    }
 }
 
 .Header ul{
@@ -69,4 +35,61 @@
 .NavLink.active{
     font-size: 22px;
     box-shadow: 0px 6px 6px -5px greenyellow;
+}
+
+
+.mobileMenuClass{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    padding: 6px;
+    opacity: 0;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 100vh;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0px 0px 20px 3px orangered;
+}
+
+.mobileMenuClass ul{
+    padding: 0px;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.mobileMenuClass .NavLink{
+    padding: 10px;
+    margin: 20px 0px;
+    width: 90%;
+    border-radius: 5px;
+    color: white;
+}
+
+.mobileMenuClass .NavLink.active{
+    font-size: 26px;
+    background-color: rgba(200, 47, 0, 0.2);
+    box-shadow: 0 0 5px 3px rgba(200, 47, 0, 0.2);
+}
+
+@media (max-height: 700px){
+    .mobileMenuClass{
+        padding: 0px;
+        width: 80%;
+    }
+    .mobileMenuClass ul{
+        margin: 0 10px;
+    }
+    .mobileMenuClass .NavLink{
+        padding: 0px;
+        margin: 10px 0px;
+    }
 }

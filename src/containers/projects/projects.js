@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import classes from './projects.module.css';
 import Lang from './skill/skill';
+import '../../shared/transition.css';
 class Projects extends Component {
 
     state = {
@@ -49,12 +50,6 @@ class Projects extends Component {
                         vidSrc: ['videos/python/Space_invaders.mp4'],
                         vidLabels:['Project overview'],
                     },
-                    header4: 'Short message',
-                    content4: 'I used also to play a little bit with tensorflow and AI, but I lost my interest in that subject. I have two projects, which were made with tutorials, but I do not want to share projects, that are not mine.',
-                    vid4: {
-                        vidSrc: [],
-                        vidLabels:[],
-                    },
                 }
             },
             {
@@ -73,20 +68,24 @@ class Projects extends Component {
                         vidLabels:[],
                     },
                     header3: 'Simple SPA',
-                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming. You can also enter this page on your own! ',
+                    content3: 'Page made with javascript, jQuery, html and css. It general idea was to master CSS and HTML. Also learned new things about RWD and js programming. You can also enter this page on your own!  Here is link: https://tymoteusz12.github.io/Tymoteusz12.github.io./',
                     vid3: {
                         vidSrc: ['videos/web_dev/simple_spa/simple_spa.mp4', 'videos/web_dev/simple_spa/web_menu.mp4'],
-                        vidLabels:['Check source! Github link: https://github.com/Tymoteusz12/Tymoteusz12.github.io.', 'Web page menu', 'Here is link: https://tymoteusz12.github.io/Tymoteusz12.github.io./'],
+                        vidLabels:['Check source! Github link: https://github.com/Tymoteusz12/Tymoteusz12.github.io.', 'Web page menu'],
                     },
                     header4: 'My portfolio',
-                    content4: 'Made with much love to present me as a person and candidate for you, dear recruiter. Built with react :)',
+                    content4: 'Made to present me as a person and candidate for recruitment. Built with react.',
                     vid4: {
                         vidSrc: [],
                         vidLabels:[],
-                    }
+                    },
                 }
             }
         ]
+    }
+
+    componentDidMount(){
+        window.scrollTo(0,0);
     }
 
     render(){
