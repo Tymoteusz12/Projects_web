@@ -92,20 +92,30 @@ class Gallery extends Component{
                 thumbnail: require('./img_gallery/burger4.png'),
                 description: 'Order modal'
             },
+            {
+                original: require('./img_gallery/burger5.png'),
+                thumbnail: require('./img_gallery/burger5.png'),
+                description: 'Contact form'
+            },
+            {
+                original: require('./img_gallery/burger6.png'),
+                thumbnail: require('./img_gallery/burger6.png'),
+                description: 'Firebase order data check'
+            },
             {//     modern
                 original: require('./img_gallery/modern1.png'),
                 thumbnail: require('./img_gallery/modern1.png'),
-                description: 'Contact form'
+                description: 'Home page'
             },
             {
                 original: require('./img_gallery/modern2.png'),
                 thumbnail: require('./img_gallery/modern2.png'),
-                description: 'Home page'
+                description: 'Menu'
             },
             {
                 original: require('./img_gallery/modern3.png'),
                 thumbnail: require('./img_gallery/modern3.png'),
-                description: 'Menu'
+                description: 'Skills'
             },
             {
                 original: require('./img_gallery/modern4.png'),
