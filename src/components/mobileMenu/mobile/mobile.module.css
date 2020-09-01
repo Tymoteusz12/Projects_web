@@ -10,8 +10,8 @@
     width: 36px;
     height: 36px;
     border-radius: 5px;
-    background-color: greenyellow;
-    box-shadow: 0px 0px 8px 3px greenyellow;
+    background-color: rgba(255, 60, 0, 0.6);
+    box-shadow: 0px 0px 8px 3px rgba(255, 60, 0, 0.6);
     cursor: pointer;
 }
 
@@ -25,11 +25,6 @@
 .mobile-menu-enter{
     z-index: 0;
     opacity: 0;
-}
-.mobileMenu-enter-active{
-    opacity: 1 !important;
-    z-index: 50;
-    transition: opacity .8s;
 }
 
 .mobileMenu-enter-done{
@@ -53,15 +48,11 @@
     z-index: 0;
     opacity: 0 !important;
 }
-.mobileMenuToggler-enter-active{
+
+.mobileMenuToggler-enter-done{
     opacity: 1 !important;
     z-index: 51;
     transition: opacity .8s;
-}
-
-.mobileMenuToggler-enter-done{
-    opacity: 1;
-    z-index: 51;
 }
 
 .mobileMenuToggler-exit{
