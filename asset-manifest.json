@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Projects_web/static/css/main.40fdfb46.chunk.css",
-    "main.js": "/Projects_web/static/js/main.cb7361cf.chunk.js",
-    "main.js.map": "/Projects_web/static/js/main.cb7361cf.chunk.js.map",
+    "main.js": "/Projects_web/static/js/main.5645c77c.chunk.js",
+    "main.js.map": "/Projects_web/static/js/main.5645c77c.chunk.js.map",
     "runtime-main.js": "/Projects_web/static/js/runtime-main.95c05238.js",
     "runtime-main.js.map": "/Projects_web/static/js/runtime-main.95c05238.js.map",
     "static/css/2.40a775a0.chunk.css": "/Projects_web/static/css/2.40a775a0.chunk.css",
-    "static/js/2.bf524781.chunk.js": "/Projects_web/static/js/2.bf524781.chunk.js",
-    "static/js/2.bf524781.chunk.js.map": "/Projects_web/static/js/2.bf524781.chunk.js.map",
+    "static/js/2.1f347d7e.chunk.js": "/Projects_web/static/js/2.1f347d7e.chunk.js",
+    "static/js/2.1f347d7e.chunk.js.map": "/Projects_web/static/js/2.1f347d7e.chunk.js.map",
     "index.html": "/Projects_web/index.html",
-    "precache-manifest.b1b5bef1e9f34b217e9d1c6f696f6ae6.js": "/Projects_web/precache-manifest.b1b5bef1e9f34b217e9d1c6f696f6ae6.js",
+    "precache-manifest.72c81ed448e2775fa3e47e5aad301273.js": "/Projects_web/precache-manifest.72c81ed448e2775fa3e47e5aad301273.js",
     "service-worker.js": "/Projects_web/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/Projects_web/static/css/2.40a775a0.chunk.css.map",
     "static/css/main.40fdfb46.chunk.css.map": "/Projects_web/static/css/main.40fdfb46.chunk.css.map",
-    "static/js/2.bf524781.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.bf524781.chunk.js.LICENSE.txt",
+    "static/js/2.1f347d7e.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.1f347d7e.chunk.js.LICENSE.txt",
     "static/media/Asteroid_belt.mp4": "/Projects_web/static/media/Asteroid_belt.2a7ef36b.mp4",
     "static/media/Blending.mp4": "/Projects_web/static/media/Blending.86992209.mp4",
     "static/media/Cube.mp4": "/Projects_web/static/media/Cube.84c15889.mp4",
@@ -31,6 +31,8 @@
     "static/media/burger2.png": "/Projects_web/static/media/burger2.62c821ee.png",
     "static/media/burger3.png": "/Projects_web/static/media/burger3.96cac2e6.png",
     "static/media/burger4.png": "/Projects_web/static/media/burger4.b36b4a6d.png",
+    "static/media/burger5.png": "/Projects_web/static/media/burger5.7a135ab0.png",
+    "static/media/burger6.png": "/Projects_web/static/media/burger6.82ca6c11.png",
     "static/media/gallery.module.css": "/Projects_web/static/media/gallery.e6d43701.png",
     "static/media/golf_ball.mp4": "/Projects_web/static/media/golf_ball.da34f9bc.mp4",
     "static/media/gravity_and_object.mp4": "/Projects_web/static/media/gravity_and_object.ab80b0c7.mp4",
@@ -57,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.95c05238.js",
     "static/css/2.40a775a0.chunk.css",
-    "static/js/2.bf524781.chunk.js",
+    "static/js/2.1f347d7e.chunk.js",
     "static/css/main.40fdfb46.chunk.css",
-    "static/js/main.cb7361cf.chunk.js"
+    "static/js/main.5645c77c.chunk.js"
   ]
 }
