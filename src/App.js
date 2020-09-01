@@ -81,7 +81,7 @@ class App extends Component {
         <CSSTransition 
           in={this.state.showMenu}
           classNames={opacityToggler}
-          timeout={timeout}>
+          timeout={{enter: 0, exit: 0}}>
         <Header menuClass={'Header'}/> 
         </CSSTransition>);
 

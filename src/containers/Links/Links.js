@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import classes from './Links.module.css';
+import GoTo from '../../components/goToToggler/goTo';
 class Links extends Component{
     state = {
         links: {
@@ -30,15 +31,21 @@ class Links extends Component{
                 <p><a href={this.state.links.links[id]} target="blank">{this.state.links.links[id]}</a></p>
             </div>))
             }
+        window.scrollTo(0,0);
         this.setState({resources: [...linksToRender]})
     }
 
     render(){
         return(
             <div className={classes.Links}>
+                <h3>Github repos and more!</h3>
                 {this.state.resources.map(link => {
                     return (link)
                 })}
+                <GoTo returnPath={'/gallery'} 
+                    returnQuote={'gallery'}
+                    path={'/home'} 
+                    quote={'home'} />
             </div>
         );
     };

@@ -7,6 +7,7 @@
     display: flex;
     padding: 10vh 0;
     padding-bottom: calc(10vh + 200px);
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;

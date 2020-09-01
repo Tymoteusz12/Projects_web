@@ -1,0 +1,101 @@
+.goToButtons{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.goToButtons p{
+    text-transform: uppercase;
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 22px 0;
+    padding-right: 22px;
+}
+
+.Return, .Explore{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 5vh;
+    width: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.Return i, .Explore i{
+    position: absolute;
+    color: white;
+}
+
+.Return i{
+    left: 5%;
+}
+
+.Explore i{
+    right: 5%;
+}
+
+.Return{
+    box-shadow: -3px 0px 2px 1px blue;
+}
+
+.Explore{
+    
+    box-shadow: 3px 0px 2px 1px red;
+}
+
+.Explore:before, .Return:before{
+    content: '';
+    position: absolute;
+    left: -400px;
+    min-width: 100px;
+    min-height: 120px;
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 50px 50px rgba(255,255,255,0.4);
+    transform: skewX(-30deg);
+    transition: .8s;
+}
+
+.Explore:hover:before, .Return:hover:before{
+    left: calc(100vw + 300px);
+}
+@media (max-width: 800px) {
+    .goToButtons p{
+        padding: 4px;
+        letter-spacing: 1px;
+        font-size: 22px;
+    }
+
+    .Return p{
+        text-align: right;
+        padding: 4px;
+        letter-spacing: 1px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 510px){
+    .goToButtons p{
+        padding: 0px;
+        word-spacing: -1px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+
+    .Return i, .Explore i{
+        font-size: 16px;
+    }
+
+    .Return i{
+        left: 1%;
+    }
+
+    .Explore i{
+        right: 1%;
+    }
+}

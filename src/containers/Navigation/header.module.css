@@ -52,7 +52,7 @@
     height: 100vh;
     border-radius: 5px;
     background-color: black;
-    box-shadow: 0px 0px 20px 3px orangered;
+    box-shadow: 0px 0px 20px 20px black;
 }
 
 .mobileMenuClass ul{
@@ -67,6 +67,8 @@
     list-style-type: none;
 }
 .mobileMenuClass .NavLink{
+    border: 1px solid blue;
+    background-color: rgb(10, 10, 10);
     padding: 10px;
     margin: 20px 0px;
     width: 90%;
@@ -76,8 +78,8 @@
 
 .mobileMenuClass .NavLink.active{
     font-size: 26px;
-    background-color: rgba(200, 47, 0, 0.2);
-    box-shadow: 0 0 5px 3px rgba(200, 47, 0, 0.2);
+    background-color: black;
+    box-shadow: 0 0 10px 2px blue;
 }
 
 @media (max-height: 700px){

@@ -3,6 +3,7 @@ import classes from './gallery.module.css';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 import './gallery_custom.css';
+import GoTo from '../../components/goToToggler/goTo';
 class Gallery extends Component{
 
     componentDidMount(){
@@ -126,6 +127,10 @@ class Gallery extends Component{
                 infinite={true}
                 autoPlay={true}
                 />
+                <GoTo returnPath={'/projects'} 
+                    returnQuote={'projects'}
+                    path={'/links'} 
+                    quote={'links'} />
             </div>
         );
     };
