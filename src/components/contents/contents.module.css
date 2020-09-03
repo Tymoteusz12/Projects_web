@@ -134,7 +134,7 @@
     transition: all .6s ease-in-out;
 }
 
-@media (max-height: 500px){
+@media (max-height: 700px){
     .switch{
         left: 5%;
     }
