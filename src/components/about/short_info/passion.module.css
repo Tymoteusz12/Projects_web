@@ -33,3 +33,23 @@
         padding: 6px;
     }
 }
+
+@media (max-width: 400px) and (max-height: 700px){
+    .Passion{
+        padding: 8px;
+        border-radius: 5px;
+        margin: 50px auto;
+    }
+    
+    .Passion img{
+        width: 50%;
+    }
+    .Passion h3{
+        font-size: 34px;
+    }
+
+    .Passion p{
+        padding: 0px;
+        font-size: 20px;
+    }
+}

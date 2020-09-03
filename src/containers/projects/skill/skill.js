@@ -24,6 +24,7 @@ class Lang extends Component{
             return {active: !prevState.active}
         })
     }
+
     componentDidMount(){
         let size = Object.size(this.props.content)/3;
         let components = [];

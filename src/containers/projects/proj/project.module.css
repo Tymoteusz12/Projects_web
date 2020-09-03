@@ -1,22 +1,28 @@
 .elem h2{
-    font-size: 54px;
-    margin: 80px 0px;
+    font-size: 64px;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+.elem h3{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 150%;
 }
 
 .elem p{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .elem video{
     box-shadow: 0px 0px 20px 10px black;
-    margin: auto;
+    margin: 10px 0 50px auto;
     width: 60%;
 }
 
-@media (max-width: 600px) and (max-height: 1000px){
+@media (max-width: 600px) and (min-width: 401px) and (max-height: 1000px){
     .elem h2{
         font-size: 40px;
-        margin: 20px 0px;
     }
 
     .elem p{
@@ -25,6 +31,26 @@
     }
 
     .elem video{
-        width: 90%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) and (max-height: 700px){
+    .elem h2{
+        font-size: 36px;
+    }
+
+    .elem h3{
+        font-size: 30px;
+    }
+
+    .elem p{
+        margin-bottom: 50px;
+        letter-spacing: 1.5px;
+        padding: 0px;
+    }
+
+    .elem video{
+        width: 100%;
     }
 }

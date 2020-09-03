@@ -33,3 +33,24 @@
         padding: 6px;
     }
 }
+
+
+@media (max-width: 400px) and (max-height: 700px){
+    .inside{
+        padding: 8px;
+        border-radius: 5px;
+        margin: 50px auto;
+    }
+    
+    .inside img{
+        width: 50%;
+    }
+    .inside h3{
+        font-size: 34px;
+    }
+
+    .inside p{
+        padding: 0px;
+        font-size: 20px;
+    }
+}

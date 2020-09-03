@@ -53,6 +53,7 @@
     "react-image-gallery": "^1.0.8",
     "react-lazy-with-preload": "^2.0.1",
     "react-router": "^5.2.0",
+    "react-scroll": "^1.8.1",
     "react-transition-group": "^4.4.1",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",

@@ -1,6 +1,5 @@
 .Links{
     min-height: 100vh;
-    z-index: 5;
     background-color: white;
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.9) 5%, rgba(0, 0, 0, 0.9)), url('../../resources/img/github-logo.png');
     background-size: contain;
@@ -16,6 +15,8 @@
 }
 
 .Links h2{
+    font-size: 54px;
+    line-height: 140%;
     font-weight: normal;
     color: white;
 }
@@ -31,6 +32,7 @@
 }
 
 .Web_apps, .Python, .Cpp, .Resources{
+    z-index: 10;
     margin: 0px;
     padding: 50px 0;
     display: flex;
@@ -62,7 +64,7 @@
     font-weight: normal;
 }
 
-.Web_links a, .Python_links a, .Cpp_links a, .Resources_links a{
+.Web_links a, .Python_links a, .Cpp_links a{
     font-size: 26px;
     text-decoration: underline;
     color: white;
@@ -78,51 +80,69 @@
 
 .Resources_links h4{
     font-size: 32px;
+    font-weight: normal;
 }
 
 .Resources{
     background-image: linear-gradient(45deg, rgba(0, 255, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
-@media (max-width: 820px) and (max-height: 1000px){
+@media (max-width: 600px) and (max-height: 1000px){
+    .Links h2{
+        font-size: 56px;
+    }
+    
     .Links h3{
-        padding-left: 10px;
-        font-size: 44px;
+        font-size: 46px;
     }
 
-    .resource{
-        padding-left: 10px;
-    }
-    .resource h4{
-        font-size: 36px;
-        line-height: 150%;
+    .Web_links h4, .Python_links h4, .Cpp_links h4{
+        font-size: 38px;
     }
 
-    .resource p{
+    .Resources_links h4{
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .Web_links a, .Python_links a, .Cpp_links a, .Resources_links a{
         font-size: 22px;
-        line-height: 150%;
+        word-break: break-all;
     }
 }
 
-@media (max-width: 600px){
-    .resource{
-        padding-left: 3px;
-        overflow-x: auto;
-    }
 
-    .resource p{
-        font-size: 20px;
-    }
-
-    .Links h3{
+@media (max-width: 400px) and (max-height: 700px){
+    .Links h2{
         font-size: 32px;
-        padding-left: 3px;
+    }
+    
+    .Links h3{
+        font-size: 26px;
+        line-height: 120%;
     }
 
-    .resource h4{
-        font-size: 28px;
+    .Web_links, .Python_links, .Cpp_links, .Resources_links{
+        border-radius: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .Web_links h4, .Python_links h4, .Cpp_links h4{
+        font-size: 24px;
+    }
+
+    .Resources_links h4{
+        font-size: 16px;
         line-height: 150%;
+        font-weight: normal;
+        width: 90%;
+    }
+
+    .Web_links a, .Python_links a, .Cpp_links a, .Resources_links a{
+        width: 80%;
+        font-size: 20px;
+        word-break: break-all;
     }
 }
-
 

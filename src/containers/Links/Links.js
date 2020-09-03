@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import classes from './Links.module.css';
 import GoTo from '../../components/goToToggler/goTo';
+import Contents from '../../components/contents/contents';
 class Links extends Component{
     state = {
         resources: null,
@@ -34,10 +35,10 @@ class Links extends Component{
                 linkClass: 'Resources_links',
                 title: 'Resources used on this website',
                 headers: [
-                    'Home page background icon made by https://www.flaticon.com/authors/itim2101, itim2101 from https://www.flaticon.com/',
-                    'About page icon made by https://www.flaticon.com/authors/freepik, Freepik from  https://www.flaticon.com',
-                    'Projects icon made by https://www.flaticon.com/authors/dave-gandy, Dave Gandy from https://www.flaticon.com/',
-                    'Gallery icon made by https://www.flaticon.com/authors/freepik, Freepik from https://www.flaticon.com/',
+                    'Home page background www.flaticon.com/authors/itim2101, itim2101 from www.flaticon.com/',
+                    'About page background www.flaticon.com/authors/freepik, Freepik from  www.flaticon.com',
+                    'Projects background  www.flaticon.com/authors/dave-gandy, Dave Gandy from www.flaticon.com/',
+                    'Gallery  background www.flaticon.com/authors/freepik, Freepik from www.flaticon.com/',
                     'lnksbgi'],
                 links: []
             }
@@ -48,25 +49,26 @@ class Links extends Component{
         window.scrollTo(0,0);
         let categoryToRender = [];
         let linksJSX = 
-        (
+        (   
             this.state.links.map(category => {
                 categoryToRender = []
                 for(let id in category.headers){
                     categoryToRender.push((
-                        <div className={classes[category.linkClass]}key={category.headers[id]}>
+                        <div className={classes[category.linkClass]} key={category.headers[id]}>
                             <h4>{category.headers[id]}</h4>
                             <a href={category.links[id]}>{category.links[id]}</a>
                         </div>
                     ))
                 }
                 return (
-                    <div key={category} className={classes[category.name]}>
+                    <div id={category.name} key={category} className={classes[category.name]}>
                         <h3>{category.title}</h3>{   
                             categoryToRender.map(content => content)
                         }
                     </div>)}
             )
         )
+
         this.setState({resources: linksJSX});
     }
 
@@ -76,6 +78,7 @@ class Links extends Component{
             <div className={classes.Links}>
                 <h2>Github repos and more!</h2>
                 {this.state.resources}
+                <Contents/>
                 <GoTo returnPath={'/gallery'} 
                     returnQuote={'gallery'}
                     path={'/home'} 
