@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Projects_web/static/css/main.5cebc302.chunk.css",
-    "main.js": "/Projects_web/static/js/main.cd1d48f5.chunk.js",
-    "main.js.map": "/Projects_web/static/js/main.cd1d48f5.chunk.js.map",
+    "main.css": "/Projects_web/static/css/main.247791c5.chunk.css",
+    "main.js": "/Projects_web/static/js/main.0085f29b.chunk.js",
+    "main.js.map": "/Projects_web/static/js/main.0085f29b.chunk.js.map",
     "runtime-main.js": "/Projects_web/static/js/runtime-main.95c05238.js",
     "runtime-main.js.map": "/Projects_web/static/js/runtime-main.95c05238.js.map",
     "static/css/2.40a775a0.chunk.css": "/Projects_web/static/css/2.40a775a0.chunk.css",
-    "static/js/2.e9ec8701.chunk.js": "/Projects_web/static/js/2.e9ec8701.chunk.js",
-    "static/js/2.e9ec8701.chunk.js.map": "/Projects_web/static/js/2.e9ec8701.chunk.js.map",
+    "static/js/2.be4290f4.chunk.js": "/Projects_web/static/js/2.be4290f4.chunk.js",
+    "static/js/2.be4290f4.chunk.js.map": "/Projects_web/static/js/2.be4290f4.chunk.js.map",
     "index.html": "/Projects_web/index.html",
-    "precache-manifest.c65331ad2b920ac8345c692e6b7874eb.js": "/Projects_web/precache-manifest.c65331ad2b920ac8345c692e6b7874eb.js",
+    "precache-manifest.fce3e59b96c3110be58ffff55a4a8a71.js": "/Projects_web/precache-manifest.fce3e59b96c3110be58ffff55a4a8a71.js",
     "service-worker.js": "/Projects_web/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/Projects_web/static/css/2.40a775a0.chunk.css.map",
-    "static/css/main.5cebc302.chunk.css.map": "/Projects_web/static/css/main.5cebc302.chunk.css.map",
-    "static/js/2.e9ec8701.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.e9ec8701.chunk.js.LICENSE.txt",
+    "static/css/main.247791c5.chunk.css.map": "/Projects_web/static/css/main.247791c5.chunk.css.map",
+    "static/js/2.be4290f4.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.be4290f4.chunk.js.LICENSE.txt",
     "static/media/Asteroid_belt.mp4": "/Projects_web/static/media/Asteroid_belt.2a7ef36b.mp4",
     "static/media/Blending.mp4": "/Projects_web/static/media/Blending.86992209.mp4",
     "static/media/Cube.mp4": "/Projects_web/static/media/Cube.84c15889.mp4",
@@ -59,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.95c05238.js",
     "static/css/2.40a775a0.chunk.css",
-    "static/js/2.e9ec8701.chunk.js",
-    "static/css/main.5cebc302.chunk.css",
-    "static/js/main.cd1d48f5.chunk.js"
+    "static/js/2.be4290f4.chunk.js",
+    "static/css/main.247791c5.chunk.css",
+    "static/js/main.0085f29b.chunk.js"
   ]
 }
