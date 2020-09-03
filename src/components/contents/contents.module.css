@@ -133,3 +133,37 @@
     opacity: 0;
     transition: all .6s ease-in-out;
 }
+
+@media (max-height: 500px){
+    .switch{
+        left: 5%;
+    }
+
+    .slide-enter{
+        left: 250%;
+        opacity: 0;
+    }
+    
+    .slide-enter-done{
+        left: 200%;
+        opacity: 1;
+        transition: all .6s ease-in-out;
+    }
+    
+    .slide-exit{
+        left: 200%;
+        opacity: 1;
+    }
+    
+    .slide-exit-done{
+        left: 250%;
+        opacity: 0;
+        transition: all .6s ease-in-out;
+    }
+
+    .ul{
+        position: absolute;
+        transform: translate(0%, 0%);
+        height: 60vh;
+    }
+}
