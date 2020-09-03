@@ -23,10 +23,6 @@
     }
 }
 
-@media (max-height: 600px){
-    
-}
-
 .mobile-menu-enter{
     z-index: 0;
     opacity: 0;
