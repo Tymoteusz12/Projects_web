@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Projects_web/static/css/main.d905f17f.chunk.css",
+    "main.css": "/Projects_web/static/css/main.8c7cb3c2.chunk.css",
     "main.js": "/Projects_web/static/js/main.0085f29b.chunk.js",
     "main.js.map": "/Projects_web/static/js/main.0085f29b.chunk.js.map",
     "runtime-main.js": "/Projects_web/static/js/runtime-main.95c05238.js",
@@ -9,10 +9,10 @@
     "static/js/2.be4290f4.chunk.js": "/Projects_web/static/js/2.be4290f4.chunk.js",
     "static/js/2.be4290f4.chunk.js.map": "/Projects_web/static/js/2.be4290f4.chunk.js.map",
     "index.html": "/Projects_web/index.html",
-    "precache-manifest.4d21a123c9dfda9b12acda7b7883be0e.js": "/Projects_web/precache-manifest.4d21a123c9dfda9b12acda7b7883be0e.js",
+    "precache-manifest.298594ac3bee8c0e75dc71a6684de9df.js": "/Projects_web/precache-manifest.298594ac3bee8c0e75dc71a6684de9df.js",
     "service-worker.js": "/Projects_web/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/Projects_web/static/css/2.40a775a0.chunk.css.map",
-    "static/css/main.d905f17f.chunk.css.map": "/Projects_web/static/css/main.d905f17f.chunk.css.map",
+    "static/css/main.8c7cb3c2.chunk.css.map": "/Projects_web/static/css/main.8c7cb3c2.chunk.css.map",
     "static/js/2.be4290f4.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.be4290f4.chunk.js.LICENSE.txt",
     "static/media/Asteroid_belt.mp4": "/Projects_web/static/media/Asteroid_belt.2a7ef36b.mp4",
     "static/media/Blending.mp4": "/Projects_web/static/media/Blending.86992209.mp4",
@@ -60,7 +60,7 @@
     "static/js/runtime-main.95c05238.js",
     "static/css/2.40a775a0.chunk.css",
     "static/js/2.be4290f4.chunk.js",
-    "static/css/main.d905f17f.chunk.css",
+    "static/css/main.8c7cb3c2.chunk.css",
     "static/js/main.0085f29b.chunk.js"
   ]
 }
