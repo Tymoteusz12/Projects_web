@@ -52,7 +52,7 @@
     line-height: 150%;
 }
 
-@media (max-width: 650px) and (max-height: 1000px){
+@media (max-width: 650px){
     .Toggle{
         margin: 50px 0;
         padding: 0px 10px;
@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width: 400px) and (max-height: 700px){
+@media (max-width: 400px){
     .Toggle{
         margin: 50px 0;
         padding: 0px 5px;

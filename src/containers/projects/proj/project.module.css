@@ -20,7 +20,7 @@
     width: 60%;
 }
 
-@media (max-width: 600px) and (min-width: 401px) and (max-height: 1000px){
+@media (max-width: 600px){
     .elem h2{
         font-size: 40px;
     }
@@ -35,7 +35,7 @@
     }
 }
 
-@media (max-width: 400px) and (max-height: 700px){
+@media (max-width: 400px){
     .elem h2{
         font-size: 36px;
     }

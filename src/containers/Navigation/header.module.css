@@ -87,7 +87,7 @@
     background-color: orangered;
 }
 
-@media (max-height: 700px){
+@media (max-height: 800px){
     .mobileMenuClass{
         padding: 0px;
         width: 80%;

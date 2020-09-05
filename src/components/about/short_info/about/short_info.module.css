@@ -16,14 +16,14 @@
     min-height: 500px;
 }
 
-@media (max-width: 600px) and (max-height: 1000px){
+@media (max-width: 600px){
     .inside{
         border-radius: 5px;
         margin: 50px auto;
     }
     
     .inside img{
-        width: 40%;
+        width: 30%;
     }
     .inside h3{
         font-size: 44px;
@@ -35,7 +35,7 @@
 }
 
 
-@media (max-width: 400px) and (max-height: 700px){
+@media (max-width: 400px){
     .inside{
         padding: 8px;
         border-radius: 5px;
