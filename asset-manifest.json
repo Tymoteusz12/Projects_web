@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/Projects_web/static/css/main.450d0e54.chunk.css",
-    "main.js": "/Projects_web/static/js/main.13a78691.chunk.js",
-    "main.js.map": "/Projects_web/static/js/main.13a78691.chunk.js.map",
+    "main.js": "/Projects_web/static/js/main.ee993f9a.chunk.js",
+    "main.js.map": "/Projects_web/static/js/main.ee993f9a.chunk.js.map",
     "runtime-main.js": "/Projects_web/static/js/runtime-main.95c05238.js",
     "runtime-main.js.map": "/Projects_web/static/js/runtime-main.95c05238.js.map",
     "static/css/2.40a775a0.chunk.css": "/Projects_web/static/css/2.40a775a0.chunk.css",
-    "static/js/2.be4290f4.chunk.js": "/Projects_web/static/js/2.be4290f4.chunk.js",
-    "static/js/2.be4290f4.chunk.js.map": "/Projects_web/static/js/2.be4290f4.chunk.js.map",
+    "static/js/2.29641573.chunk.js": "/Projects_web/static/js/2.29641573.chunk.js",
+    "static/js/2.29641573.chunk.js.map": "/Projects_web/static/js/2.29641573.chunk.js.map",
     "index.html": "/Projects_web/index.html",
-    "precache-manifest.16a88d71b88bbb3a9e9f97833e25e51c.js": "/Projects_web/precache-manifest.16a88d71b88bbb3a9e9f97833e25e51c.js",
+    "precache-manifest.44ab50b9aba653eadb9b38d6450b933f.js": "/Projects_web/precache-manifest.44ab50b9aba653eadb9b38d6450b933f.js",
     "service-worker.js": "/Projects_web/service-worker.js",
     "static/css/2.40a775a0.chunk.css.map": "/Projects_web/static/css/2.40a775a0.chunk.css.map",
     "static/css/main.450d0e54.chunk.css.map": "/Projects_web/static/css/main.450d0e54.chunk.css.map",
-    "static/js/2.be4290f4.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.be4290f4.chunk.js.LICENSE.txt",
-    "static/media/Asteroid_belt.mp4": "/Projects_web/static/media/Asteroid_belt.2a7ef36b.mp4",
+    "static/js/2.29641573.chunk.js.LICENSE.txt": "/Projects_web/static/js/2.29641573.chunk.js.LICENSE.txt",
     "static/media/Blending.mp4": "/Projects_web/static/media/Blending.86992209.mp4",
     "static/media/Cube.mp4": "/Projects_web/static/media/Cube.84c15889.mp4",
     "static/media/Data_comparison.mp4": "/Projects_web/static/media/Data_comparison.88d9c0f3.mp4",
@@ -31,8 +30,6 @@
     "static/media/burger2.png": "/Projects_web/static/media/burger2.62c821ee.png",
     "static/media/burger3.png": "/Projects_web/static/media/burger3.96cac2e6.png",
     "static/media/burger4.png": "/Projects_web/static/media/burger4.b36b4a6d.png",
-    "static/media/burger5.png": "/Projects_web/static/media/burger5.7a135ab0.png",
-    "static/media/burger6.png": "/Projects_web/static/media/burger6.82ca6c11.png",
     "static/media/gallery.module.css": "/Projects_web/static/media/gallery.e6d43701.png",
     "static/media/golf_ball.mp4": "/Projects_web/static/media/golf_ball.da34f9bc.mp4",
     "static/media/gravity_and_object.mp4": "/Projects_web/static/media/gravity_and_object.ab80b0c7.mp4",
@@ -51,7 +48,6 @@
     "static/media/solar_1.png": "/Projects_web/static/media/solar_1.ba4760d3.png",
     "static/media/solar_2.png": "/Projects_web/static/media/solar_2.94dc7883.png",
     "static/media/solar_3.png": "/Projects_web/static/media/solar_3.5305614a.png",
-    "static/media/solar_4.png": "/Projects_web/static/media/solar_4.acdd121e.png",
     "static/media/space_invader1.png": "/Projects_web/static/media/space_invader1.4af875ba.png",
     "static/media/space_invader2.png": "/Projects_web/static/media/space_invader2.e558ce25.png",
     "static/media/web_menu.mp4": "/Projects_web/static/media/web_menu.30cfa489.mp4"
@@ -59,8 +55,8 @@
   "entrypoints": [
     "static/js/runtime-main.95c05238.js",
     "static/css/2.40a775a0.chunk.css",
-    "static/js/2.be4290f4.chunk.js",
+    "static/js/2.29641573.chunk.js",
     "static/css/main.450d0e54.chunk.css",
-    "static/js/main.13a78691.chunk.js"
+    "static/js/main.ee993f9a.chunk.js"
   ]
 }
