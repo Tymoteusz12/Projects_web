@@ -27,11 +27,6 @@ class Gallery extends Component{
                 thumbnail:require('./img_gallery/solar_3.png'),
                 description: 'Sun and Earth comparison'
             },
-            {
-                original: require('./img_gallery/solar_4.png'),
-                thumbnail: require('./img_gallery/solar_4.png'),
-                description: 'Earth and Moon'
-            },
             {//     instancing
                 original: require('./img_gallery/instancing_1.png'),
                 thumbnail: require('./img_gallery/instancing_1.png'),
@@ -91,16 +86,6 @@ class Gallery extends Component{
                 original: require('./img_gallery/burger4.png'),
                 thumbnail: require('./img_gallery/burger4.png'),
                 description: 'Order modal'
-            },
-            {
-                original: require('./img_gallery/burger5.png'),
-                thumbnail: require('./img_gallery/burger5.png'),
-                description: 'Contact form'
-            },
-            {
-                original: require('./img_gallery/burger6.png'),
-                thumbnail: require('./img_gallery/burger6.png'),
-                description: 'Firebase order data check'
             },
             {//     modern
                 original: require('./img_gallery/modern1.png'),

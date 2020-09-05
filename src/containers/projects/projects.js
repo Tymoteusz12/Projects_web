@@ -4,7 +4,6 @@ import Lang from './skill/skill';
 import '../../shared/transition.css';
 import General_Overview from './videos/cpp/Solar_System/General_Overview.mp4';
 import Sun_and_Earth from './videos/cpp/Solar_System/Sun_and_Earth.mp4';
-import Asteroid_belt from  './videos/cpp/Solar_System/Asteroid_belt.mp4';
 import Planets from './videos/cpp/Solar_System/Planets.mp4';
 import Instancing from './videos/cpp/Instancing/Instancing.mp4';
 import Playground from './videos/cpp/Playground/General_Overview.mp4';
@@ -29,13 +28,13 @@ class Projects extends Component {
                 title: 'C/C++ projects',
                 content: {
                     header1: 'Solar System model',
-                    content1: 'This is my biggest project. I managed to build Solar System model with 9 planets (including Pluto) and central Star. Everything was implemented by myself: Models, orbitals, skyboxes, gravity, movements... That was fascinating journey. Planet sizes have real scale, also their masses, distances between certain orbitals. Included some extra stuff - false asteroid belt and Saturn rings. Not everything was imitated corectly. Orbital inclination, planet declination and their rotation are fake. Camera is set up to move with the speed of light (1c - speed of light constant). BUT ! At the video I used 100x speed boost few times. Fun fact! Taking a journey through sun took me about 4,7seconds. Flying at this model from Sun to Earth with 1c would take about 8 minutes and 20 seconds.',
+                    content1: 'This is my biggest project. I managed to build Solar System model with 9 planets (including Pluto) and central Star. The idea behind this project was to test, if Newtonian\'s law of universal gravitation is enough to build Solar System. Fun fact! Taking a journey through sun took me about 4,7seconds. Flying at this model from Sun to Earth would take about 8 minutes and 20 seconds.',
                     vid1: {
-                        vidSrc: [General_Overview, Sun_and_Earth, Asteroid_belt, Planets],
-                        vidLabels:['General model overview - Speed travel = 100c', 'Sun and Earth comparison - Speed travel 1c ' , 'Asteroid belt - Speed travel 100c', 'Solar System planets - Speed travel = Mixed. After Mars - 100c. Before - 1c.'],
+                        vidSrc: [General_Overview, Sun_and_Earth, Planets],
+                        vidLabels:['General model overview - Speed travel = 100c', 'Sun and Earth comparison - Speed travel 1c ' , 'Solar System planets - Speed travel = Mixed. After Mars - 100c. Before - 1c.'],
                     },
                     header2: 'GPU Instancing',
-                    content2: 'Instancing is a technique used for graphic rendering optimization. It is commonly used, when we need to render big amount of object on single frame. In this project I took a closer look at this idea. On the video you can see tremendous amount of asteroid models. They sum up together up to 100_000 objects. Every asteroid has 576 vertices - which means our GPU renders 576 * 100_000 vertices every frame. Bigger amount of asteroids resulted of peformance drops. This technique is used for e.g for smooth grass rendering. ',
+                    content2: 'On the video you can see tremendous amount of asteroid models. They sum up together up to 100_000 objects. Every asteroid has 576 vertices - which means our GPU renders 576 * 100_000 vertices every frame. Bigger amount of asteroids resulted of peformance drops. This technique is used for e.g for smooth grass rendering. I built this project to see peformance boost, when using proper technique of rendering.',
                     vid2: {
                         vidSrc: [Instancing],
                         vidLabels:['Project overview'],
@@ -43,8 +42,8 @@ class Projects extends Component {
                     header3: 'OpenGL Playground',
                     content3: 'This project actually is used by me to test new features during my eduaction. Also I added gravity force, cube, which is used for throwing, and friction force during ground contact with thrown model.',
                     vid3: {
-                        vidSrc: [Playground, Cube, Blending],
-                        vidLabels:['General look', 'Throwing a cube!', 'Blending - transparency within objects. Notice red \'windows\'. '],
+                        vidSrc: [Playground, Cube],
+                        vidLabels:['General look', 'Throwing a cube!'],
                     },
                 }
             },
@@ -77,8 +76,8 @@ class Projects extends Component {
                     header1: 'Build your own burger!',
                     content1: 'Project made with react, together with redux. You can build your own burger, fill contact form and register as a user to see your own orders. App uses tokens for authentication, so if you leave a page and return back, you will be still logged. It uses also Firebase to fetch orders from database, generate tokens and more. General idea of the project was to train AJAX, React, React-redux, Routing and basics of web development. ',
                     vid1: {
-                        vidSrc: [BG_Builder, Ordering_Burger, Data_comparison, Routing, Firebase_check],
-                        vidLabels:['General view.', 'Ordering a burger!', 'Ordered burger informations', 'Routing - with out authentication, we are unable to enter some pages', 'Checking firebase. All orders data are stored in firebase.'],
+                        vidSrc: [BG_Builder, Ordering_Burger, Firebase_check],
+                        vidLabels:['General view.', 'Ordering a burger!', 'Checking firebase. All orders data are stored in firebase.'],
                     },
                     header2: 'Programming project page',
                     content2: 'This site actually is my project. It uses React. Build for my programming skills presentation! It is fully responsive.',

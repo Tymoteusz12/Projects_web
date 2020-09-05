@@ -72,7 +72,7 @@ class App extends Component {
               <Route path="/projects" component={Projects}/>
               <Route path="/about" component={About}/>
               <Route path="/home" component={Content}/>
-              <Redirect from='/'to="/home"/>
+              <Redirect from='/' to="/home"/>
             </Switch>
         </CSSTransition>
       </TransitionGroup>);
