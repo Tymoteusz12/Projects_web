@@ -20,15 +20,17 @@ class Links extends Component{
                 linkClass: 'Cpp_links',
                 title: 'C/C++ github repos',
                 headers: ['Solar system', 'Instancing project', 'OpenGL playground'],
-                links: ['https://github.com/Tymoteusz12/OpenGL-and-physics.git', 'inst', 
-                        'opgl']
+                links: ['https://github.com/Tymoteusz12/OpenGL-and-physics.git', 'https://github.com/Tymoteusz12/OpenGL_Instancing', 
+                        'https://github.com/Tymoteusz12/OpenGL-playground']
             },
             {
                 name: 'Python',
                 linkClass: 'Python_links',
                 title: 'Python github repos',
                 headers: ['Ping pong ball', 'Gravity and central object', 'Space invaders'],
-                links: ['ppball', 'grvt', 'spc inv']
+                links: ['https://github.com/Tymoteusz12/Ping-pong_ball', 
+                'https://github.com/Tymoteusz12/Gravity', 
+                'https://github.com/Tymoteusz12/Space_invaders']
             },
             {
                 name: 'Resources',
@@ -39,7 +41,7 @@ class Links extends Component{
                     'About page background www.flaticon.com/authors/freepik, Freepik from  www.flaticon.com',
                     'Projects background  www.flaticon.com/authors/dave-gandy, Dave Gandy from www.flaticon.com/',
                     'Gallery  background www.flaticon.com/authors/freepik, Freepik from www.flaticon.com/',
-                    'lnksbgi'],
+                    'Links background www.flaticon.com/authors/pixel-perfect, Pixel perfect from www.flaticon.com/'],
                 links: []
             }
         ]
@@ -77,6 +79,7 @@ class Links extends Component{
         return(
             <div className={classes.Links}>
                 <h2>Github repos and more!</h2>
+                <h5>Small note - some projects might be >1 year old and was not modified/optimized by me due to other activities I spent time on. Anyway - fell free to dive into source code!</h5>
                 {this.state.resources}
                 <Contents/>
                 <GoTo returnPath={'/gallery'} 
