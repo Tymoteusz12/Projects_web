@@ -8,18 +8,16 @@ import Planets from './videos/cpp/Solar_System/Planets.mp4';
 import Instancing from './videos/cpp/Instancing/Instancing.mp4';
 import Playground from './videos/cpp/Playground/General_Overview.mp4';
 import Cube from './videos/cpp/Playground/Cube.mp4';
-import Blending from './videos/cpp/Playground/Blending.mp4';
 import Golf_Ball from './videos/python/golf_ball.mp4';
 import Gravity from './videos/python/gravity_and_object.mp4';
 import Space_Invaders from './videos/python/Space_invaders.mp4';
 import BG_Builder from './videos/web_dev/burger_builder/General_view.mp4';
 import Ordering_Burger from './videos/web_dev/burger_builder/Ordering_Burger.mp4';
-import Data_comparison from './videos/web_dev/burger_builder/Data_comparison.mp4';
-import Routing from './videos/web_dev/burger_builder/Routing.mp4';
 import Firebase_check from './videos/web_dev/burger_builder/Firebase_check.mp4';
 import simple_spa from './videos/web_dev/simple_spa/simple_spa.mp4';
 import web_menu from './videos/web_dev/simple_spa/web_menu.mp4';
 import GoTo from '../../components/goToToggler/goTo';
+
 class Projects extends Component {
 
     state = {
@@ -34,13 +32,13 @@ class Projects extends Component {
                         vidLabels:['General model overview - Speed travel = 100c', 'Sun and Earth comparison - Speed travel 1c ' , 'Solar System planets - Speed travel = Mixed. After Mars - 100c. Before - 1c.'],
                     },
                     header2: 'GPU Instancing',
-                    content2: 'On the video you can see tremendous amount of asteroid models. They sum up together up to 100_000 objects. Every asteroid has 576 vertices - which means our GPU renders 576 * 100_000 vertices every frame. Bigger amount of asteroids resulted of peformance drops. This technique is used for e.g for smooth grass rendering. I built this project to see peformance boost, when using proper technique of rendering.',
+                    content2: 'On the video you can see tremendous amount of asteroid models. They sum up together up to 100_000 objects. Every asteroid has 576 vertices - which means our GPU renders 576 * 100_000 vertices every frame. Bigger amount of asteroids resulted of performance drops. This technique is used for e.g for smooth grass rendering. I built this project to learn new technique of objects rendering, and to check final improvement of performance.',
                     vid2: {
                         vidSrc: [Instancing],
                         vidLabels:['Project overview'],
                     },
                     header3: 'OpenGL Playground',
-                    content3: 'This project actually is used by me to test new features during my eduaction. Also I added gravity force, cube, which is used for throwing, and friction force during ground contact with thrown model.',
+                    content3: 'This project actually is used by me to test new features during my education. Also, I added gravity force, cube, which is used for throwing, and friction force during ground contact with thrown model.',
                     vid3: {
                         vidSrc: [Playground, Cube],
                         vidLabels:['General look', 'Throwing a cube!'],

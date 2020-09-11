@@ -79,7 +79,7 @@ class Links extends Component{
         return(
             <div className={classes.Links}>
                 <h2>Github repos and more!</h2>
-                <h5>Small note - some projects might be >1 year old and was not modified/optimized by me due to other activities I spent time on. Anyway - fell free to dive into source code!</h5>
+                <h5>You are welcomed to check source code :)</h5>
                 {this.state.resources}
                 <Contents/>
                 <GoTo returnPath={'/gallery'} 
