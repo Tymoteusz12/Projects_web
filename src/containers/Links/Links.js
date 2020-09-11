@@ -10,10 +10,11 @@ class Links extends Component{
                 name: 'Web_apps',
                 linkClass: 'Web_links',
                 title: 'Web aplications github repos',
-                headers: ['Burger app', 'Programming project page', 'Simple SPA'],
+                headers: ['Burger app', 'Programming project page', 'Simple SPA', 'My portfolio'],
                 links: ['https://github.com/Tymoteusz12/Burger_Builder', 
                         'https://github.com/Tymoteusz12/Projects_web', 
-                        'https://tymoteusz12.github.io/Tymoteusz12.github.io./']
+                        'https://tymoteusz12.github.io/Tymoteusz12.github.io./',
+                        'https://github.com/Tymoteusz12/official_portfolio']
             },
             {
                 name: 'Cpp',
