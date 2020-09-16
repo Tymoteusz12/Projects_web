@@ -23,7 +23,7 @@
     }
 }
 
-.mobile-menu-enter{
+.mobileMenu-enter{
     z-index: 0;
     opacity: 0;
 }

@@ -14,7 +14,7 @@ class Links extends Component{
                 links: ['https://github.com/Tymoteusz12/Burger_Builder', 
                         'https://github.com/Tymoteusz12/Projects_web', 
                         'https://tymoteusz12.github.io/Tymoteusz12.github.io./',
-                        'https://github.com/Tymoteusz12/official_portfolio']
+                        'https://github.com/Tymoteusz12/official_portfolio, https://tymoteusz12.github.io/official_portfolio']
             },
             {
                 name: 'Cpp',

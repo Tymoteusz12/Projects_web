@@ -15,7 +15,7 @@ class Footer extends Component{
         return(
             <div className={classes.Footer}>
                 <div className={classes.Icons}>
-                    <a href="" target="blank"><i className="fas fa-user-tie"></i></a>
+                    <a href="htttps://tymoteusz12.github.io/official_portfolio" target="blank"><i className="fas fa-user-tie"></i></a>
                     <a href="https://github.com/Tymoteusz12" target="blank"><i className="fab fa-github-square"></i></a>
                 </div>
                 <h4>Copyright (c) {this.state.currentYear} Tymoteusz Jagiełło</h4>
