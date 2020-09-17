@@ -90,7 +90,7 @@ class Projects extends Component {
                         vidLabels:['Home view', 'Web page menu'],
                     },
                     header4: 'My portfolio',
-                    content4: 'Made to present me as a person and candidate for recruitment. Built with react.',
+                    content4: 'Made to present me as a person and candidate for recruitment. Built with react. Visit https://tymoteusz12.github.io/official_portfolio',
                     vid4: {
                         vidSrc: [],
                         vidLabels:[],

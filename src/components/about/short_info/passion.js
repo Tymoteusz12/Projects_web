@@ -6,7 +6,7 @@ const passions = props => {
         <div className={classes.Passion}>
             <img src={passion} alt="passion_image"/>
             <h3>True passion</h3>
-            <p>My programming adventure started at the beginning of 2019. Since this time,
+            <p>My programming adventure started in the beginning of 2019. Since that,
                 I have learned three programming languages. My main language is C++ with C.
                 I used this language with modern OpenGL - Open Graphics Library and GLSL.
                 Except that - python - served me in pygame library, Django and AI.
