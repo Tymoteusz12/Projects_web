@@ -1,18 +1,27 @@
 .Toggle{
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     z-index: 5;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: black;
     color: white;
     padding: 0px 20px;
     min-height: 150px;
-    box-shadow: 0px 0px 10px 2px orangered;
+    -webkit-box-shadow: 0px 0px 10px 2px orangered;
+            box-shadow: 0px 0px 10px 2px orangered;
     overflow: hidden;
     cursor: pointer;
     margin-bottom: 100px;
+    -webkit-transition: .2s linear;
     transition: .2s linear;
 }
 
@@ -24,7 +33,8 @@
 }
 
 .Toggle:hover{
-    box-shadow: 0px 0px 20px 10px orangered;
+    -webkit-box-shadow: 0px 0px 20px 10px orangered;
+            box-shadow: 0px 0px 20px 10px orangered;
 }
 
 .Toggle:before{
@@ -34,8 +44,11 @@
     min-width: 200px;
     min-height: 120px;
     background-color: rgba(255,255,255,0.4);
-    box-shadow: 0 0 50px 50px rgba(255,255,255,0.4);
-    transform: skewX(-30deg);
+    -webkit-box-shadow: 0 0 50px 50px rgba(255,255,255,0.4);
+            box-shadow: 0 0 50px 50px rgba(255,255,255,0.4);
+    -webkit-transform: skewX(-30deg);
+            transform: skewX(-30deg);
+    -webkit-transition: .8s;
     transition: .8s;
 }
 

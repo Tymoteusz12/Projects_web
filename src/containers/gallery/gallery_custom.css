@@ -8,17 +8,20 @@
 }
 
 .image-gallery-thumbnail{
-    box-shadow: 0px 0px 5px 1px white;
+    -webkit-box-shadow: 0px 0px 5px 1px white;
+            box-shadow: 0px 0px 5px 1px white;
 }
 
 .image-gallery-slide .image-gallery-image{
     width: 80%;
     margin: 5vh auto;
-    box-shadow: 0px 0px 10px 5px white;
+    -webkit-box-shadow: 0px 0px 10px 5px white;
+            box-shadow: 0px 0px 10px 5px white;
 }
 
 .image-gallery-bullets .image-gallery-bullet{
-   box-shadow: 0px 0px 5px 2px black;
+   -webkit-box-shadow: 0px 0px 5px 2px black;
+           box-shadow: 0px 0px 5px 2px black;
 }
 
 .image-gallery-bullets .image-gallery-bullet.active{

@@ -14,9 +14,11 @@
     line-height: 150%;
     height: auto;
     margin-bottom: 100px;
-    box-shadow: 0px 0px 50px 2px white;
+    -webkit-box-shadow: 0px 0px 50px 2px white;
+            box-shadow: 0px 0px 50px 2px white;
 }
 .fade-enter-active{
+    -webkit-transition: opacity .6s ease, height .6s ease;
     transition: opacity .6s ease, height .6s ease;
 }
 
@@ -28,7 +30,8 @@
     line-height: 150%;
     height: auto;
     margin-bottom: 100px;
-    box-shadow: 0px 0px 50px 2px white;  
+    -webkit-box-shadow: 0px 0px 50px 2px white;
+            box-shadow: 0px 0px 50px 2px white;  
 }
 
 .fade-exit-active{
@@ -37,6 +40,7 @@
     font-size: 0px;
     height: 0;
     margin-bottom: 0px;
+    -webkit-transition: opacity .6s ease, height .6s ease;
     transition: opacity .6s ease, height .6s ease;
 }
 
